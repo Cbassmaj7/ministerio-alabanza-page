@@ -8,10 +8,18 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({ info = churchInfo }) => {
+  const [logoError, setLogoError] = React.useState(false);
+
   return (
     <header className="relative bg-church-cream/75 border border-church-beige/90 rounded-3xl shadow-neu-raised overflow-hidden mb-6">
       {/* Top institutional tri-color accent bar with Navy & Matte Gold */}
       <div className="h-2.5 w-full bg-gradient-to-r from-church-navy via-church-gold to-church-navy" />
+
+      {/* Subtle Church Temple Architecture Background Watermark */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-[0.08] pointer-events-none mix-blend-multiply"
+        style={{ backgroundImage: `url('./images/image_iglesia.jpeg')` }}
+      />
 
       <div className="px-5 py-6 sm:px-8 sm:py-7">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
@@ -19,11 +27,20 @@ export const Header: React.FC<HeaderProps> = ({ info = churchInfo }) => {
           {/* Left: Church Emblem & Identity */}
           <div className="flex items-center gap-4 text-center md:text-left">
             {/* Neumorphic Logo Container */}
-            <div className="relative flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-church-navy to-church-navy-dark text-church-white-warm flex items-center justify-center shadow-neu-navy border border-church-gold/40">
-              <div className="text-center">
-                <Music className="w-8 h-8 sm:w-9 sm:h-9 mx-auto text-church-gold-light" />
-                <span className="text-[9px] font-black tracking-widest uppercase block mt-0.5 text-church-gold">A.I.E.C</span>
-              </div>
+            <div className="relative flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-church-navy to-church-navy-dark text-church-white-warm flex items-center justify-center shadow-neu-navy border border-church-gold/40 overflow-hidden">
+              {!logoError ? (
+                <img
+                  src="./images/logo1.jpeg"
+                  alt="Logo AIEC"
+                  className="w-full h-full object-cover rounded-2xl"
+                  onError={() => setLogoError(true)}
+                />
+              ) : (
+                <div className="text-center">
+                  <Music className="w-8 h-8 sm:w-9 sm:h-9 mx-auto text-church-gold-light" />
+                  <span className="text-[9px] font-black tracking-widest uppercase block mt-0.5 text-church-gold">A.I.E.C</span>
+                </div>
+              )}
               {/* Gold Accent Tag */}
               <div className="absolute -top-1.5 -right-1.5 w-5 h-5 bg-church-gold rounded-full flex items-center justify-center text-church-white-warm border-2 border-church-cream shadow-neu-raised-sm">
                 <span className="text-[10px] font-black">†</span>
