@@ -15,6 +15,12 @@ export const Header: React.FC<HeaderProps> = ({ info = churchInfo }) => {
       {/* Top institutional tri-color accent bar with Navy & Matte Gold */}
       <div className="h-2.5 w-full bg-gradient-to-r from-church-navy via-church-gold to-church-navy" />
 
+      {/* Subtle Church Temple Architecture Background Watermark */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-[0.08] pointer-events-none mix-blend-multiply"
+        style={{ backgroundImage: `url('./images/image_iglesia.jpeg')` }}
+      />
+
       <div className="px-5 py-6 sm:px-8 sm:py-7">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           

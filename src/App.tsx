@@ -12,7 +12,7 @@ import { Legend } from './components/Legend';
 import { ExportToolbar } from './components/ExportToolbar';
 import { EventModal } from './components/EventModal';
 import { exportElementAsPng, shareSchedule } from './utils/exportImage';
-import { Sparkles, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { Sparkles, CheckCircle2 } from 'lucide-react';
 
 const scheduleData = scheduleDataRaw as unknown as ScheduleData;
 const churchInfo = churchInfoRaw as unknown as ChurchInfo;
@@ -182,15 +182,19 @@ export default function App() {
         <Legend />
 
         {/* Footer info in captured container */}
-        <footer className="text-center py-4 border-t border-church-beige/80 text-xs text-church-navy/70 flex flex-col sm:flex-row items-center justify-between gap-2 px-2 mt-2">
-          <div className="flex items-center gap-1.5 font-bold text-church-navy">
-            <ShieldCheck className="w-4 h-4 text-church-gold" />
+        <footer className="text-center py-4 border-t border-church-beige/80 text-xs text-church-navy/70 flex flex-col sm:flex-row items-center justify-between gap-3 px-2 mt-2">
+          <div className="flex items-center gap-2.5 font-black text-church-navy">
+            <img
+              src="./images/logo1.jpeg"
+              alt="Logo AIEC"
+              className="w-7 h-7 rounded-lg object-cover shadow-neu-raised-sm border border-church-gold/40"
+            />
             <span>AIEC Nueva Jerusalén • San Marcos, Sucre</span>
           </div>
 
-          <div className="flex items-center gap-1 text-[11px] font-semibold text-church-navy/60">
-            <Sparkles className="w-3 h-3 text-church-gold" />
-            <span>Plataforma Oficial de Alabanza & Adoración</span>
+          <div className="flex items-center gap-1.5 text-[11px] font-bold text-church-navy/70">
+            <Sparkles className="w-3.5 h-3.5 text-church-gold" />
+            <span>Ministerio de Alabanza & Adoración • Tierra deseable</span>
           </div>
         </footer>
       </div>

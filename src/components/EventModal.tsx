@@ -47,29 +47,34 @@ export const EventModal: React.FC<EventModalProps> = ({ event, onClose }) => {
         className="relative w-full max-w-lg bg-church-cream border border-church-beige shadow-neu-raised-lg rounded-3xl overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header strip */}
-        <div
-          className={`px-6 py-4 flex items-center justify-between text-church-white-warm ${
-            event.isHoliday ? 'bg-church-crimson' : 'bg-church-navy'
-          }`}
-        >
-          <div className="flex items-center gap-2">
-            <span
-              className={`text-xs font-black uppercase px-2.5 py-0.5 rounded-lg shadow-2xs ${groupCfg.badgeBg} ${groupCfg.badgeText}`}
-            >
-              {event.groupLabel}
-            </span>
-            <span className="text-xs text-church-white-warm/80 font-bold">{event.categoryLabel}</span>
-          </div>
-
+        {/* Temple Photo Header Banner */}
+        <div className="relative h-28 sm:h-36 w-full overflow-hidden bg-church-navy">
+          <img
+            src="./images/image_iglesia.jpeg"
+            alt="Templo Iglesia Nueva Jerusalén San Marcos"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-church-cream via-transparent to-black/50" />
+          
           <button
             type="button"
             onClick={onClose}
             aria-label="Cerrar modal"
-            className="p-1.5 rounded-full hover:bg-white/20 text-church-white-warm transition-colors"
+            className="absolute top-3 right-3 p-1.5 rounded-full bg-church-navy/70 backdrop-blur-xs hover:bg-church-navy text-church-white-warm transition-colors shadow-md"
           >
             <X className="w-5 h-5" />
           </button>
+
+          <div className="absolute bottom-2.5 left-6 flex items-center gap-2">
+            <span
+              className={`text-xs font-black uppercase px-2.5 py-0.5 rounded-lg shadow-md ${groupCfg.badgeBg} ${groupCfg.badgeText}`}
+            >
+              {event.groupLabel}
+            </span>
+            <span className="text-xs text-church-navy font-extrabold bg-church-ivory/95 px-2.5 py-0.5 rounded-md border border-church-beige shadow-sm">
+              {event.categoryLabel}
+            </span>
+          </div>
         </div>
 
         {/* Content body */}
