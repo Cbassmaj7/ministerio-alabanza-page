@@ -1,0 +1,17 @@
+{
+  "short_name": "Alabanza AIEC",
+  "name": "Planeación de Alabanza - Iglesia Nueva Jerusalén AIEC",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#F7EBD5",
+  "theme_color": "#062B4C",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "./"
+}

@@ -1,0 +1,6 @@
+Azul marino profundo	#062B4C	Títulos, textos principales, fondos inferiores, iconos
+Dorado mate	#B98232	Títulos manuscritos, líneas, cruces, ornamentos y acentos
+Marfil principal	#F7EBD5	Fondo general
+Crema cálido	#F1DFC2	Variaciones del fondo y zonas de transición
+Beige dorado suave	#E5CFA5	Detalles secundarios y bordes
+Blanco cálido	#FFF9EF	Textos sobre azul y zonas de alto contraste

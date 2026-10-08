@@ -1,0 +1,332 @@
+{
+  "recurringRehearsals": [
+    {
+      "id": "rec-rafael",
+      "day": "Lunes",
+      "dayNumber": 1,
+      "group": "rafael",
+      "groupLabel": "Rafael Quiñonez",
+      "time": "4:00 PM - 5:00 PM",
+      "note": "En días festivos se traslada al martes"
+    },
+    {
+      "id": "rec-herederos",
+      "day": "Martes",
+      "dayNumber": 2,
+      "group": "herederos",
+      "groupLabel": "Herederos del Reino",
+      "time": "7:00 PM - 9:00 PM",
+      "note": "Ensayo general semanal"
+    },
+    {
+      "id": "rec-united-mie",
+      "day": "Miércoles",
+      "dayNumber": 3,
+      "group": "united",
+      "groupLabel": "United Worship",
+      "time": "7:00 PM - 9:00 PM",
+      "note": "Ensayo general"
+    },
+    {
+      "id": "rec-united-vie",
+      "day": "Viernes",
+      "dayNumber": 5,
+      "group": "united",
+      "groupLabel": "United Worship",
+      "time": "7:00 PM - 9:00 PM",
+      "note": "Ensayo general"
+    }
+  ],
+  "months": [
+    {
+      "year": 2026,
+      "month": 9,
+      "monthName": "Septiembre",
+      "events": [
+        {
+          "id": "sep-06",
+          "date": "2026-09-06",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "rafael",
+          "groupLabel": "Grupo Rafael",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Ministración del grupo Rafael en el servicio matutino",
+          "participants": ["Rafael Quiñonez", "Manuel", "Rubiel"]
+        },
+        {
+          "id": "sep-13",
+          "date": "2026-09-13",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "united",
+          "groupLabel": "United Worship",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Alabanza congregacional de domingo",
+          "participants": ["Equipo United Worship"]
+        },
+        {
+          "id": "sep-20",
+          "date": "2026-09-20",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "herederos",
+          "groupLabel": "Herederos del Reino",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Servicio dominical con niños y jóvenes",
+          "participants": ["Herederos del Reino"]
+        },
+        {
+          "id": "sep-25",
+          "date": "2026-09-25",
+          "title": "Noche de Alabanza y Oración",
+          "time": "7:00 PM",
+          "group": "united",
+          "groupLabel": "United Worship",
+          "category": "culto",
+          "categoryLabel": "Culto Especial",
+          "description": "Jornada de adoración unida",
+          "participants": ["Ministerio de Alabanza"]
+        },
+        {
+          "id": "sep-27",
+          "date": "2026-09-27",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "united",
+          "groupLabel": "United Worship",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Cierre mensual de escuela dominical",
+          "participants": ["United Worship"]
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 10,
+      "monthName": "Octubre",
+      "events": [
+        {
+          "id": "oct-04",
+          "date": "2026-10-04",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "united",
+          "groupLabel": "United Worship",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Servicio dominical de Santa Cena",
+          "participants": ["United Worship"]
+        },
+        {
+          "id": "oct-11",
+          "date": "2026-10-11",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "rafael",
+          "groupLabel": "Grupo Rafael",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Servicio dominical a cargo de Rafael, Manuel y Rubiel",
+          "participants": ["Rafael Quiñonez", "Manuel", "Rubiel"],
+          "isImportant": true
+        },
+        {
+          "id": "oct-12",
+          "date": "2026-10-12",
+          "title": "Festivo Nacional - Día de la Raza",
+          "time": "Todo el día",
+          "group": "holiday",
+          "groupLabel": "Festivo",
+          "category": "festivo",
+          "categoryLabel": "Festivo Nacional",
+          "description": "No hay práctica de Rafael (reprogramada para el martes 13)",
+          "isHoliday": true
+        },
+        {
+          "id": "oct-13-1",
+          "date": "2026-10-13",
+          "title": "Práctica Reprogramada Rafael",
+          "time": "4:00 PM - 5:00 PM",
+          "group": "rafael",
+          "groupLabel": "Grupo Rafael",
+          "category": "ensayo_especial",
+          "categoryLabel": "Ensayo Especial",
+          "description": "Práctica trasladada del festivo lunes 12",
+          "participants": ["Rafael Quiñonez", "Manuel", "Rubiel"]
+        },
+        {
+          "id": "oct-13-2",
+          "date": "2026-10-13",
+          "title": "Ensayo Herederos del Reino",
+          "time": "7:00 PM - 9:00 PM",
+          "group": "herederos",
+          "groupLabel": "Herederos del Reino",
+          "category": "ensayo_especial",
+          "categoryLabel": "Ensayo Regular",
+          "description": "Ensayo regular de los martes",
+          "participants": ["Herederos del Reino"]
+        },
+        {
+          "id": "oct-17-1",
+          "date": "2026-10-17",
+          "title": "Ayuno Ministerial",
+          "time": "Por definir",
+          "group": "ministerial",
+          "groupLabel": "Ministerial",
+          "category": "ayuno",
+          "categoryLabel": "Ayuno",
+          "description": "Ayuno Ministerial",
+          "participants": ["Ministerial"]
+        },
+        {
+          "id": "oct-17-2",
+          "date": "2026-10-17",
+          "title": "Caminata Congregacional",
+          "time": "5:30 AM",
+          "group": "congregational",
+          "groupLabel": "Congregacional",
+          "category": "actividad",
+          "categoryLabel": "Actividad Congregacional",
+          "description": "Actividad deportiva y comunitaria de la Iglesia Nueva Jerusalén",
+          "participants": ["Toda la congregación"],
+          "isImportant": true
+        },
+        {
+          "id": "oct-18",
+          "date": "2026-10-18",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "united",
+          "groupLabel": "United Worship",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Servicio dominical matutino con alabanza congregacional",
+          "participants": ["United Worship"]
+        },
+        {
+          "id": "oct-25",
+          "date": "2026-10-25",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "herederos",
+          "groupLabel": "Herederos del Reino",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Servicio dominical ministrado por Herederos del Reino",
+          "participants": ["Herederos del Reino"]
+        },
+        {
+          "id": "oct-27",
+          "date": "2026-10-27",
+          "title": "Culto Semana Bíblica",
+          "time": "4:00 PM",
+          "group": "united",
+          "groupLabel": "United Worship",
+          "category": "culto",
+          "categoryLabel": "Semana Bíblica",
+          "description": "Culto temático de la Semana Bíblica",
+          "participants": ["United Worship"],
+          "isImportant": true
+        },
+        {
+          "id": "oct-30",
+          "date": "2026-10-30",
+          "title": "Vigilia Congregacional",
+          "time": "8:00 PM - 1:00 AM",
+          "group": "congregational",
+          "groupLabel": "United Worship / Herederos",
+          "category": "vigilia",
+          "categoryLabel": "Vigilia",
+          "description": "Vigilia de oración y adoración con United Worship y Herederos del Reino",
+          "participants": ["United Worship", "Herederos del Reino"],
+          "isImportant": true
+        },
+        {
+          "id": "oct-31",
+          "date": "2026-10-31",
+          "title": "Encuentro de Jóvenes",
+          "time": "8:30 AM - 12:30 PM",
+          "group": "united",
+          "groupLabel": "United Worship",
+          "category": "actividad",
+          "categoryLabel": "Encuentro de Jóvenes",
+          "description": "Jornada matutina juvenil de adoración y comunión",
+          "participants": ["United Worship", "Liderazgo Juvenil"],
+          "isImportant": true
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 11,
+      "monthName": "Noviembre",
+      "events": [
+        {
+          "id": "nov-01",
+          "date": "2026-11-01",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "united",
+          "groupLabel": "United Worship",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Apertura del mes de noviembre en adoración dominical",
+          "participants": ["United Worship"]
+        },
+        {
+          "id": "nov-08",
+          "date": "2026-11-08",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "rafael",
+          "groupLabel": "Grupo Rafael",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Servicio dominical matutino",
+          "participants": ["Rafael Quiñonez", "Manuel", "Rubiel"]
+        },
+        {
+          "id": "nov-15",
+          "date": "2026-11-15",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "herederos",
+          "groupLabel": "Herederos del Reino",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Servicio dominical con los jóvenes",
+          "participants": ["Herederos del Reino"]
+        },
+        {
+          "id": "nov-22",
+          "date": "2026-11-22",
+          "title": "Escuela Dominical",
+          "time": "7:00 AM",
+          "group": "united",
+          "groupLabel": "United Worship",
+          "category": "escuela_dominical",
+          "categoryLabel": "Escuela Dominical",
+          "description": "Servicio dominical de alabanza",
+          "participants": ["United Worship"]
+        },
+        {
+          "id": "nov-29",
+          "date": "2026-11-29",
+          "title": "Culto de Acción de Gracias",
+          "time": "5:00 PM",
+          "group": "congregational",
+          "groupLabel": "Congregacional",
+          "category": "culto",
+          "categoryLabel": "Culto Especial",
+          "description": "Culto especial de acción de gracias congregacional",
+          "participants": ["Todos los ministerios"]
+        }
+      ]
+    }
+  ]
+}

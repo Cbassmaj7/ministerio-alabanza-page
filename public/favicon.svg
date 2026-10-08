@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="24" fill="#062B4C"/>
+  <circle cx="50" cy="50" r="42" stroke="#B98232" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.6"/>
+  <!-- Musical note & praise symbol in Matte Gold and Warm White -->
+  <path d="M42 66C46.4183 66 50 62.4183 50 58V32L70 28V22L42 27.5V58.5C40.2 57.5 37.8 57 35 57C29.4772 57 25 61.0294 25 66C25 70.9706 29.4772 75 35 75C40.5228 75 42 70.9706 42 66Z" fill="#FFF9EF"/>
+  <circle cx="68" cy="42" r="7.5" fill="#B98232"/>
+  <path d="M68 37V47M63 42H73" stroke="#FFF9EF" stroke-width="2" stroke-linecap="round"/>
+</svg>
