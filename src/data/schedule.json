@@ -53,7 +53,11 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Ministración del grupo Rafael en el servicio matutino",
-          "participants": ["Rafael Quiñonez", "Manuel", "Rubiel"]
+          "participants": [
+            "Rafael Quiñonez",
+            "Manuel",
+            "Rubiel"
+          ]
         },
         {
           "id": "sep-13",
@@ -65,7 +69,9 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Alabanza congregacional de domingo",
-          "participants": ["Equipo United Worship"]
+          "participants": [
+            "Equipo United Worship"
+          ]
         },
         {
           "id": "sep-20",
@@ -77,7 +83,9 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Servicio dominical con niños y jóvenes",
-          "participants": ["Herederos del Reino"]
+          "participants": [
+            "Herederos del Reino"
+          ]
         },
         {
           "id": "sep-25",
@@ -89,7 +97,9 @@
           "category": "culto",
           "categoryLabel": "Culto Especial",
           "description": "Jornada de adoración unida",
-          "participants": ["Ministerio de Alabanza"]
+          "participants": [
+            "Ministerio de Alabanza"
+          ]
         },
         {
           "id": "sep-27",
@@ -101,7 +111,9 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Cierre mensual de escuela dominical",
-          "participants": ["United Worship"]
+          "participants": [
+            "United Worship"
+          ]
         }
       ]
     },
@@ -120,7 +132,9 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Servicio dominical de Santa Cena",
-          "participants": ["United Worship"]
+          "participants": [
+            "United Worship"
+          ]
         },
         {
           "id": "oct-11",
@@ -132,7 +146,11 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Servicio dominical a cargo de Rafael, Manuel y Rubiel",
-          "participants": ["Rafael Quiñonez", "Manuel", "Rubiel"],
+          "participants": [
+            "Rafael Quiñonez",
+            "Manuel",
+            "Rubiel"
+          ],
           "isImportant": true
         },
         {
@@ -157,7 +175,11 @@
           "category": "ensayo_especial",
           "categoryLabel": "Ensayo Especial",
           "description": "Práctica trasladada del festivo lunes 12",
-          "participants": ["Rafael Quiñonez", "Manuel", "Rubiel"]
+          "participants": [
+            "Rafael Quiñonez",
+            "Manuel",
+            "Rubiel"
+          ]
         },
         {
           "id": "oct-13-2",
@@ -169,7 +191,9 @@
           "category": "ensayo_especial",
           "categoryLabel": "Ensayo Regular",
           "description": "Ensayo regular de los martes",
-          "participants": ["Herederos del Reino"]
+          "participants": [
+            "Herederos del Reino"
+          ]
         },
         {
           "id": "oct-17-1",
@@ -181,7 +205,9 @@
           "category": "ayuno",
           "categoryLabel": "Ayuno",
           "description": "Ayuno Ministerial",
-          "participants": ["Ministerial"]
+          "participants": [
+            "Ministerial"
+          ]
         },
         {
           "id": "oct-17-2",
@@ -193,7 +219,9 @@
           "category": "actividad",
           "categoryLabel": "Actividad Congregacional",
           "description": "Actividad deportiva y comunitaria de la Iglesia Nueva Jerusalén",
-          "participants": ["Toda la congregación"],
+          "participants": [
+            "Toda la congregación"
+          ],
           "isImportant": true
         },
         {
@@ -201,24 +229,28 @@
           "date": "2026-10-18",
           "title": "Escuela Dominical",
           "time": "7:00 AM",
-          "group": "united",
-          "groupLabel": "United Worship",
+          "group": "herederos",
+          "groupLabel": "Herederos del Reino",
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
-          "description": "Servicio dominical matutino con alabanza congregacional",
-          "participants": ["United Worship"]
+          "description": "Servicio dominical ministrado por Herederos del Reino",
+          "participants": [
+            "Herederos del Reino"
+          ]
         },
         {
           "id": "oct-25",
           "date": "2026-10-25",
           "title": "Escuela Dominical",
           "time": "7:00 AM",
-          "group": "herederos",
-          "groupLabel": "Herederos del Reino",
+          "group": "united",
+          "groupLabel": "United Worship",
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
-          "description": "Servicio dominical ministrado por Herederos del Reino",
-          "participants": ["Herederos del Reino"]
+          "description": "Servicio dominical matutino con alabanza congregacional",
+          "participants": [
+            "United Worship"
+          ]
         },
         {
           "id": "oct-27",
@@ -230,7 +262,9 @@
           "category": "culto",
           "categoryLabel": "Semana Bíblica",
           "description": "Culto temático de la Semana Bíblica",
-          "participants": ["United Worship"],
+          "participants": [
+            "United Worship"
+          ],
           "isImportant": true
         },
         {
@@ -243,7 +277,10 @@
           "category": "vigilia",
           "categoryLabel": "Vigilia",
           "description": "Vigilia de oración y adoración con United Worship y Herederos del Reino",
-          "participants": ["United Worship", "Herederos del Reino"],
+          "participants": [
+            "United Worship",
+            "Herederos del Reino"
+          ],
           "isImportant": true
         },
         {
@@ -256,7 +293,10 @@
           "category": "actividad",
           "categoryLabel": "Encuentro de Jóvenes",
           "description": "Jornada matutina juvenil de adoración y comunión",
-          "participants": ["United Worship", "Liderazgo Juvenil"],
+          "participants": [
+            "United Worship",
+            "Liderazgo Juvenil"
+          ],
           "isImportant": true
         }
       ]
@@ -276,7 +316,9 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Apertura del mes de noviembre en adoración dominical",
-          "participants": ["United Worship"]
+          "participants": [
+            "United Worship"
+          ]
         },
         {
           "id": "nov-08",
@@ -288,7 +330,11 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Servicio dominical matutino",
-          "participants": ["Rafael Quiñonez", "Manuel", "Rubiel"]
+          "participants": [
+            "Rafael Quiñonez",
+            "Manuel",
+            "Rubiel"
+          ]
         },
         {
           "id": "nov-15",
@@ -300,7 +346,9 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Servicio dominical con los jóvenes",
-          "participants": ["Herederos del Reino"]
+          "participants": [
+            "Herederos del Reino"
+          ]
         },
         {
           "id": "nov-22",
@@ -312,7 +360,9 @@
           "category": "escuela_dominical",
           "categoryLabel": "Escuela Dominical",
           "description": "Servicio dominical de alabanza",
-          "participants": ["United Worship"]
+          "participants": [
+            "United Worship"
+          ]
         },
         {
           "id": "nov-29",
@@ -324,7 +374,9 @@
           "category": "culto",
           "categoryLabel": "Culto Especial",
           "description": "Culto especial de acción de gracias congregacional",
-          "participants": ["Todos los ministerios"]
+          "participants": [
+            "Todos los ministerios"
+          ]
         }
       ]
     }
